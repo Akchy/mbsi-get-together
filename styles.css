@@ -162,10 +162,10 @@ img { max-width: 100%; display: block; }
 .hero__eyebrow {
   color: var(--gold);
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-size: 0.8rem;
-  font-weight: 700;
-  margin: 0 0 12px;
+  letter-spacing: 1px;
+  font-size: clamp(1.4rem, 3.4vw, 2rem);
+  font-weight: 800;
+  margin: 0 0 18px;
 }
 
 .hero__title {
